@@ -1,6 +1,5 @@
-# n8n — kit para empezar (Luis)
-
-Preguntaste qué es n8n. En corto: automatización visual open source
+# n8n 
+automatización visual open source
 (fair-code, self-host gratis). Conectas nodos — GitHub, Gmail, MySQL,
 Telegram, AWS, una API de Laravel — y un evento dispara acciones.
 Hoy, 15 nov 2026, tiene ~211k estrellas en GitHub
