@@ -1,0 +1,20 @@
+# n8n en local con Docker — starter para Luis
+# Uso: copia .env.example a .env, genera una clave, luego `docker compose up -d`
+# Abre http://localhost:5678 y crea tu cuenta de owner.
+# Solo en local: NO expongas el puerto 5678 a internet sin HTTPS y contraseña.
+services:
+  n8n:
+    image: n8nio/n8n:2.47.4
+    container_name: n8n-luis
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=America/Monterrey
+      - TZ=America/Monterrey
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+volumes:
+  n8n_data:
