@@ -1,11 +1,3 @@
-# n8n 
-automatización visual open source
-(fair-code, self-host gratis). Conectas nodos — GitHub, Gmail, MySQL,
-Telegram, AWS, una API de Laravel — y un evento dispara acciones.
-Hoy, 15 nov 2026, tiene ~211k estrellas en GitHub
-(`n8n-io/n8n`), fue el proyecto JavaScript con más estrellas nuevas
-en 2025 (+112k en ese año). Te sirve para DevOps y para tu CV:
-corre con Docker, y luego lo puedes subir a AWS/EC2.
 
 ## 1. Levantarlo en 5 minutos (solo en tu compu)
 
