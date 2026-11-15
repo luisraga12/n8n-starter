@@ -38,17 +38,3 @@ Flujo: `Manual Trigger → HTTP Request (api.github.com/search/repositories?q=la
    entrar a n8n.
 3. Agrega un nodo **MySQL** y guarda el top 5 cada día: ya tienes
    historial y práctica real con tu stack.
-4. La idea grande: el mismo patrón, pero con un feed RSS de
-   ofertas PHP/Laravel, para avisarte solo cuando salga una
-   remota que te convenga. Eso es justo lo que hoy hago yo por ti.
-
-## 4. Para tu CV y GitHub
-
-Si subes esta carpeta a tu GitHub, ya tienes un proyecto real de
-automatización + Docker para mostrar, y me pasas tu usuario de
-GitHub y te lo agrego al CV (es el único dato que falta en el
-CV que ya te dejé listo: `CV-Luis-Antonio-Raga-Reyes.pdf`).
-
-Versión fijada en el compose: `n8nio/n8n:2.47.4` (estable a
-nov 2026). Si al importar el flujo tu n8n marca una versión
-de nodo distinta, créalo a mano: son solo esos 3 nodos de arriba.
